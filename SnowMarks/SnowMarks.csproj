@@ -10,9 +10,11 @@
     <ItemGroup>
       <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
       <PackageReference Include="FFMpegCore" Version="5.1.0" />
+      <PackageReference Include="SDL2.NET" Version="1.2.3" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Benchmarks\Graphical\" />
       <Folder Include="Resources\" />
     </ItemGroup>
 

@@ -4,6 +4,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace SnowMarks.Benchmarks;
 
+[BenchmarkCategory("Regex")]
 [RPlotExporter]
 public partial class RegMarks
 {
