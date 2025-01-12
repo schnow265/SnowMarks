@@ -1,5 +1,3 @@
-using System.Reflection;
-
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
 
@@ -16,12 +14,7 @@ namespace SnowMarks.Benchmarks;
 public class FFMpeg
 {
     private readonly string location = "/home/schnow265/RiderProjects/SnowMarks/SnowMarks/Resources/bbb_sunflower_2160p_60fps_normal.mp4";
-    
-    public FFMpeg()
-    {
-        //location = Path.Join(Assembly.GetCallingAssembly().Location, "bbb_sunflower_2160p_60fps_normal.mp4");
-    }
-    
+
     [Benchmark(Description = "Multi Threaded")]
     public void FfmpegMultiCore() => FFMpegArguments
         .FromFileInput(location)

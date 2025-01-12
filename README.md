@@ -15,7 +15,7 @@ Benchmarks to find out how shit your Device is.
     > install.packages("ggplot2", repos = "https://cran.rstudio.com/")
     ```
 - [The BigBuckBunny Video placed into the Resources folder unzipped and named as-is](https://download.blender.org/demo/movies/BBB/bbb_sunflower_2160p_60fps_normal.mp4.zip)
-- IF you want to run the FFMpeg Benchmarks, you will need to edit the code right now to change the location of the source footage. The required Edit is in the [SnowMarks/Benchmarks/FFMpeg.cs](SnowMarks/Benchmarks/FFMpeg.cs) on line 17.
+- IF you want to run the FFMpeg Benchmarks, you will need to edit the code right now to change the location of the source footage. The required Edit is in the [SnowMarks/Benchmarks/FFMpeg.cs](SnowMarks/Benchmarks/FFMpeg.cs) on line 16.
 
 ## Running the Benchmarks
 
