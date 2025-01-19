@@ -7,6 +7,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+        <DefineConstants>OS_WINDOWS</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Linux'))">
+        <DefineConstants>OS_LINUX</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('FreeBSD'))">
+        <DefineConstants>OS_FREEBSD</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+        <DefineConstants>OS_MAC</DefineConstants>
+    </PropertyGroup>
+
+
     <ItemGroup>
       <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
       <PackageReference Include="FFMpegCore" Version="5.1.0" />
@@ -22,6 +36,10 @@
       <None Update="Resources\bbb_sunflower_2160p_60fps_normal.mp4">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SnowMarks.Library\SnowMarks.Library.csproj" />
     </ItemGroup>
 
 </Project>

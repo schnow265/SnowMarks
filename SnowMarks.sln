@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowMarks", "SnowMarks\SnowMarks.csproj", "{4A4E5D51-6BD4-422F-A30E-F4AF593182DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowMarks.Tests", "SnowMarks.Tests\SnowMarks.Tests.csproj", "{B09DE471-2BB0-43C0-9A93-0F25D6298FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowMarks.Library", "SnowMarks.Library\SnowMarks.Library.csproj", "{5B12C312-B76F-4759-ABA3-2627FB138DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{4A4E5D51-6BD4-422F-A30E-F4AF593182DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A4E5D51-6BD4-422F-A30E-F4AF593182DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A4E5D51-6BD4-422F-A30E-F4AF593182DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09DE471-2BB0-43C0-9A93-0F25D6298FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09DE471-2BB0-43C0-9A93-0F25D6298FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09DE471-2BB0-43C0-9A93-0F25D6298FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09DE471-2BB0-43C0-9A93-0F25D6298FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B12C312-B76F-4759-ABA3-2627FB138DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12C312-B76F-4759-ABA3-2627FB138DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12C312-B76F-4759-ABA3-2627FB138DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12C312-B76F-4759-ABA3-2627FB138DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
